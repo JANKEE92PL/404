@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Not found - 404</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <style>
+        #errorContent{
+           margin-top: -169px; 
+        }
+        #main {
+            
+        }
+        .ooops{
+            font-size: calc(var(--big-font-size)* 1.1);
+            
+        }
+       .backBTN {
+           font-size: larger;
+       }
+       .svgError{
+           position: absolute;
+           bottom: 15%;
+            right: 5%;
+       }
+    @media only screen and (max-width:1600px) and (min-width:767px) { 
+    
+        .svgError {
+        display: none;
+        
+    }
+}
+        
+    </style>
+</head>
+<main class="l-main" id="main">
+            <!--===== ERROR CONTENT =====-->
+    <section class="home bd-grid" id="errorContent">
+                <div class="home__data">
+                    <h2 class="home__title ooops">Ooops!<br>Looks like the <span class="home__title-color">Page</span><br> you're after <span class="home__title-color">isn't here.</span></h2>
+
+                    <a href="https://webdesign-sj.com/" class="button backBTN" title="Back to Home Page ">&#9204;Home</a>
+                </div>
+
+                <div class="home__social">
+    
+                </div>
+                
+                <div class="home__img svgError">    
+                    <img src="assets/img/error-404-colour.svg" alt="Error Page" title="404">
+                </div>
+    </section>
+    <footer class="footer">
+            <p class="footer__title">WebDesign &verbar; SJ </p>
+            <p><span id="copyright">&copy;&nbsp;</span>&nbsp;copyright all rights reserved</p>
+    </footer>
+</main>
+</html>
